@@ -1,7 +1,7 @@
 package zoo;
 
 public class Animals {
-    String specie;
+    public String specie;
     char gender;
     int age;
     boolean isAlive = true;
@@ -13,10 +13,6 @@ public class Animals {
     double liczbaZmiennoprzecinkowaZDwomaMiejscamiPoPrzecinku;
 
     long caloriesCounter = 0L;
-
-    public Animal(String specie) {
-        this.specie = specie;
-    }
 
     public Animals(String dog) {
     }
